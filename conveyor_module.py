@@ -18,8 +18,8 @@ import threading
 pygame.init()
 
 # Screen dimensions
-SCREEN_WIDTH = 1200
-SCREEN_HEIGHT = 1000
+SCREEN_WIDTH = 1100
+SCREEN_HEIGHT = 800
 
 # Port Listening
 CONVEYOR_PORT = 12121
