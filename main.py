@@ -27,7 +27,7 @@ def main():
     #           =False: To get images for training
     #   2. imgLimit
     #           =Number: Number of images/rows to be stored (use 50 to get images for training)
-    conveyor = conveyor_module.Simulation(shouldAnalyzeImg=False, imgLimit=50)
+    conveyor = conveyor_module.Simulation(shouldAnalyzeImg=True, imgLimit=50)
 
     analytic.start()
     conveyor.start()
